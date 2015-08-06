@@ -1,4 +1,4 @@
-# Deskbookers Front-end Developer Trail
+# Deskbookers Front-end Developer Trial
 
 To complete these assignments fork this repo. When you're done you can push your changes to your own repo (and let us know where to find it ofcourse).
 
