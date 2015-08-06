@@ -1,4 +1,7 @@
-<?php $apiData = ['name' => 'HNK Hoofddorp', 'rating' => 8.1, 'review_count' => 50, 'url' => 'https://www.deskbookers.com/nl-nl/hoofddorp/hnk-hoofddorp']; ?>
+<?php
+$apiData = (object) ['name' => '<HNK> Hoofddorp', 'rating' => 8.1, 'review_count' => 50, 'url' => 'https://www.deskbookers.com/nl-nl/hoofddorp/hnk-hoofddorp'];
+function safe($value, $doubleEncode = true) { return htmlspecialchars( (string) $value, ENT_QUOTES, 'utf-8', $doubleEncode); }
+?>
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -9,7 +12,6 @@
 	</head>
 	<body>
 		
-
 		<!-- Scripts -->
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
