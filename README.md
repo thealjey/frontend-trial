@@ -1,10 +1,14 @@
 # Deskbookers Front-end Developer Trial
 
-To complete these assignments fork this repo. When you're done you can push your changes to your own repo (and let us know where to find it ofcourse).
+Hi Front-ender!
+
+Great that you're interested in this exercise! Thanks a lot for making it. The exercise exists of two parts. They are related to the Deskbookers way of working. Good luck and we are looking forward to hearing from you soon!
+
+To complete these assignments you need to fork this repo. When you're done you can push your changes to your own repo (and let us know where to find it ofcourse).
 
 It is possible that these assignments don't work directly from your local hard drive in some browsers. In that case you can use your own web server (if you have one) or use XAMP (https://www.apachefriends.org/index.html) to install your own.
 
-## Assignment 1
+## Assignment 1: Responsive Widget
 
 For this assignment you need to implement a responsive mini widget. A design is already made using Adobe Fireworks: [mini-widget.png](assignment1/mini-widget.png).
 The widget has to work in two modes: vertical and horizontal. See the design for two examples. The widget will be placed on websites of venues using an iframe.
