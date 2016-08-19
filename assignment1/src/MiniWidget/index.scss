@@ -1,0 +1,88 @@
+@import "../StarRating";
+
+.x-mini-widget {
+  background: $widget-background;
+  border: $widget-border-width solid $widget-header-color;
+  text-decoration: none;
+
+  header {
+    color: $widget-header-color;
+    font-size: $font-size-base * 1.2;
+    white-space: nowrap;
+  }
+
+  .reviews {
+    color: $reviews-color;
+    font-size: $font-size-base * .8;
+    white-space: nowrap;
+  }
+
+  footer {
+    align-items: center;
+    display: flex;
+
+    .intro {
+      color: $widget-header-color;
+    }
+
+    svg {
+      height: $font-size-base * 2;
+    }
+  }
+}
+
+.x-mini-widget-horizontal {
+  display: inline-block;
+
+  header {
+    background: $widget-header-background;
+    padding: $widget-padding;
+    text-align: center;
+  }
+
+  .body, footer {
+    padding-left: $widget-padding;
+    padding-right: $widget-padding;
+  }
+
+  .intro, .x-image-logo {
+    margin-right: $widget-padding;
+  }
+
+  .body {
+    display: flex;
+
+    svg {
+      height: $font-size-base * 3;
+    }
+  }
+}
+
+.x-mini-widget-vertical {
+  display: inline-block;
+  text-align: center;
+
+  .body {
+    padding: $widget-padding $widget-padding * 3;
+  }
+
+  header, footer {
+    padding-left: $widget-padding * 3;
+    padding-right: $widget-padding * 3;
+  }
+
+  .x-star-rating {
+    margin-bottom: $font-size-base;
+
+    i:nth-child(odd) {
+      bottom: -$font-size-base;
+      position: relative;
+    }
+  }
+
+  footer {
+    flex-direction: column;
+    line-height: .1;
+    padding-top: $font-size-base;
+  }
+}

@@ -1,0 +1,4 @@
+---
+extends: ./node_modules/webcompiler/.eslintrc.yml
+rules:
+  react/prefer-stateless-function: 0

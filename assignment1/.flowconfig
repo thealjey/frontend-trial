@@ -1,0 +1,11 @@
+[ignore]
+.*/node_modules/*
+.*/resources/*
+
+[include]
+
+[libs]
+node_modules/webcompiler/interfaces/
+
+[options]
+suppress_comment=.*@flowignore.*
